@@ -16,7 +16,12 @@ import {
 
 // 🔥 Your Firebase Config
 const firebaseConfig = {
-// Replace with your Firebase config
+  apiKey: "AIzaSyBYhxS4gO5HoUsLnY0q0_HlzTOSHASFaHI",
+  authDomain: "project-jpg-65d3b.firebaseapp.com",
+  projectId: "project-jpg-65d3b",
+  storageBucket: "project-jpg-65d3b.firebasestorage.app",
+  messagingSenderId: "1070926686670",
+  appId: "1:1070926686670:web:df0fa97a6de309ae37e39f"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -79,4 +84,5 @@ onAuthStateChanged(auth, async (user) => {
       window.location.href = "index.html";
     }
   }
+
 });
